@@ -1,5 +1,9 @@
 body {background-color: rgba(242, 236, 205, 0.913);}
-
+.navbar1 {
+    background-color: rgba(13, 100, 8, 0.673);
+    justify-content:space-around;
+    padding: 20px;
+}
 #profile-pic {
     border-radius: 50%;
     border: 5px solid #0f46dd;
@@ -40,3 +44,26 @@ ol {
     grid-template-columns: auto auto;
     justify-content: space-evenly;
   }
+#page-content{
+    padding: 20px;
+}
+.button-mp {
+
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    
+}
+#button-cv {
+    background-color: rgba(86, 86, 146, 0.673);
+    color: white;
+}
+
+#button-contact {
+    background-color: rgba(13, 100, 8, 0.673);
+    color: white;
+}
+
+.interact-buttons {
+     
+}
