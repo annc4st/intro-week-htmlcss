@@ -7,88 +7,125 @@
     <title>Anna's Portfolio</title>
   </head>
   <body>
-    <nav class="navbar1">
-      <a href="">About </a>
-      <a href=""> Resume</a>
-      <a href=""> Portfolio </a>
-    </nav>
+    <header id="my-header">
+      <nav id="navbar1">
+        <div class="navbar-div"> 
+          <ul class="navbar-ul">
+            <li class="navbar-li"><a class="navbar-a" href="">Home</a></li>
+            <li class="navbar-li"><a class="navbar-a" href="">News</a></li>
+            <li class="navbar-li"><a class="navbar-a" href="">Contact</a></li>
+            <li class="navbar-li"><a class="navbar-a" href="">About</a></li>
+          </ul>
+        </div>
+
+      </nav>
+    </header>
 
     <main id="page-content">
+      <h1></h1>
+      <!-- first grid -->
+      <div class="grid-container">
+        <div class="left-part">
+          <div id="annas-picture" class="inner-div">
+            <img
+              id="profile-pic"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRILSwdfOToHY9gXJfuq-B5qtkBQChIJKh2-UWaM0MtNophxPTedMpVaVaohX3-Gga-FXw&usqp=CAU"
+              alt="picture of the profile"
+              width="300"
+              height="300"
+            />
+          </div>
+          <p>
+            <a href="#pictures-of-dogs"> Checkout my dog pictures</a>
+          </p>
 
-    <h1></h1>
+          <div class="interact-buttons">
+            <button type="button" class="button-mp" id="button-cv">
+              Download CV
+            </button>
+            <button type="button" class="button-mp" id="button-contact">
+              Contact now
+            </button>
+          </div>
+        </div>
+<!-- first grid -->
+ 
 
-    <div id="annas-picture">
-      <img
-        id="profile-pic"
-        src="https://www.discoverwalks.com/blog/wp-content/uploads/2022/09/830px-_._photo_386_cropped-816x1062.jpg"
-        alt="picture of the woman Verka Serduchka"
-        width="200"
-        height="300"
-      />
-    </div>
-    <div class="text-part-of-page">
-      <h2>Just Anna</h2>
+          <div class="right-part">
+            <div class="text-part-of-page">
+              <h2>Just Anna...</h2>
 
-      <article class="article">
-        <h3>Developer and Startup Entrepreneur</h3>
+              <h3>Developer and Startup Entrepreneur</h3>
 
-        <p>Hello I am ...</p>
-
-        <p>
-          <a href="#pictures-of-dogs"> Checkout my dog pictures</a>
-        </p>
-
-        <div class="interact-buttons">
-
-        <button type="button" class="button-mp" id="button-cv">Download CV</button>
-        <button type="button" class="button-mp" id = "button-contact">Contact now</button>
-      </div>
+              <p>Hello I am ...</p>
+              <p>
+                A personal profile is a short paragraph at the top of your
+                application. It’s like an elevator pitch: a catchy summary of
+                your expertise, skills, and achievements. Think of it as an
+                introduction to your CV. Write it well, and you’ll make your
+                whole application memorable as well as buy yourself much more of
+                the recruiter’s time!
+              </p>
+            </div>
+          </div>
+        </div>
       
-      </article>
 
       <br />
+      <!-- second grid -->
+      <div class="grid-container">
+        <div class="random-content-1">
+          <p>Unordered list</p>
+          <ul class="unordered-list">
+            <li>1 unordered list</li>
+            <li>2 unordered list</li>
+          </ul>
+        </div>
+        <div class="random-content-1">
+          <p>Ordered list</p>
+          <ol class="ordered-list">
+            <li>1 of ordered list</li>
+            <li>2 of ordered list</li>
+          </ol>
+        </div>
+          <br />
+        </div>
+      </div>  
 
-      <p>Unordered list</p>
-      <ul class="unordered-list">
-        <li>1 unordered list</li>
-        <li>2 unordered list</li>
-      </ul>
-      <br />
-      <p>Ordered list</p>
-      <ol class="ordered-list">
-        <li>1 of ordered list</li>
-        <li>2 of ordered list</li>
-      </ol>
-      <br />
-    </div>
+      <!-- third grid -->
 
-    <div class="grid-container" id="pictures-of-dogs">
-      <div id="dog-one">
-        <p>Cute doggie</p>
-        <img
-          src="./cute_small_dog.jpeg"
-          alt="Beatiful dog of small size with hairy ears"
-        />
-        <p>Check out this dog <a href="https:// "> just link</a>.</p>
+      <div class="grid-container" id="pictures-of-dogs">
+        <div id="dog-one">
+          <h3>Cute Doggie</h3>
+          <img
+            src="./cute_small_dog.jpeg"
+            alt="Beatiful dog of small size with hairy ears"
+          />
+          <p>Check out this dog <a href="https:// "> just link</a>.</p>
+        </div>
+
+        <div id="dog-two">
+          <h3>Another Cute Doggie</h3>
+
+          <img
+            src="https://hips.hearstapps.com/hmg-prod/images/dog-instagram-captions-sentimental-64da8806ddbdf.jpg?crop=0.626xw:0.939xh;0.197xw,0.0204xh&resize=980:*"
+            alt="Dog walking in a forest with a stick"
+            width="300"
+            height="300"
+          />
+          <p>
+            Check out this dog
+            <a href="https:// " target="_blank" rel="noreferrer noopener"
+              >link in a new tab</a
+            >.
+          </p>
+        </div>
       </div>
-
-      <div id="dog-two">
-        <p>another cute dog</p>
-
-        <img
-          src="https://hips.hearstapps.com/hmg-prod/images/dog-instagram-captions-sentimental-64da8806ddbdf.jpg?crop=0.626xw:0.939xh;0.197xw,0.0204xh&resize=980:*"
-          alt="Dog walking in a forest with a stick"
-          width="300"
-          height="300"
-        />
-        <p>
-          Check out this dog
-          <a href="https:// " target="_blank" rel="noreferrer noopener"
-            >link in a new tab</a
-          >.
-        </p>
-      </div>
-    </div>
     </main>
+
+    <footer class="footer-section">
+      <p class="footer-p">Author: Anna S</p>
+      <p class="footer-p"><a href="mailto:anna@example.com">anna@example.com</a></p>
+    </footer>
   </body>
 </html>

@@ -1,13 +1,51 @@
-body {background-color: rgba(242, 236, 205, 0.913);}
-.navbar1 {
-    background-color: rgba(13, 100, 8, 0.673);
-    justify-content:space-around;
-    padding: 20px;
+body {
+    background-color: rgb(254, 250, 224);
 }
+#my-header {
+    display: block;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(96, 108, 56);
+    justify-content: space-around;
+
+}
+
+#navbar1 {
+    display: inline-flex
+    justify-content: space-between;;
+    /* padding-left: 20px;
+    padding-top: 20px; */
+}
+
+.navbar-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar-li {
+    /* display: inline; */
+    float: left;
+  }
+
+.navbar-a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+  }
+
 #profile-pic {
     border-radius: 50%;
-    border: 5px solid #0f46dd;
-    
+    border: 5px solid rgb(96, 108, 56);
+}
+
+h1 {
+    line-height: 1.1em;
+    letter-spacing: 0.03em;
+}
+h3 {
+
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -17,33 +55,34 @@ p {
 
 a {
     font-size: medium;
+    color: rgb(188, 108, 37);
 }
 
 ul {
-    color: green;
-
+    color: rgb(96, 108, 56);
 }
 
 ol {
-    color: red;
-
+    color:rgb(188, 108, 37);
 }
 #annas-picture {
     margin-bottom: 20px;
     margin-left: 50px;
     padding: 10px;
 }
-.text-part_of-page {
+.text-part-of-page {
     margin-bottom: 20px;
-    margin-left: 50px;
-
+    margin-left: 20px;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    grid-gap: 40px;
+    
   }
+ 
 #page-content{
     padding: 20px;
 }
@@ -60,10 +99,21 @@ ol {
 }
 
 #button-contact {
-    background-color: rgba(13, 100, 8, 0.673);
+    background-color: rgb(221, 161, 94);
     color: white;
 }
 
 .interact-buttons {
      
+}
+
+footer {
+    background-color: rgb(96, 108, 56);
+    height: 60px;
+    width: 100%;
+    
+}
+
+#footer-p {
+    padding: 10px;
 }
